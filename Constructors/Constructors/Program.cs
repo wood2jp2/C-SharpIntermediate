@@ -26,7 +26,10 @@ namespace Constructors
         {
             var Josh = new Customer();
             Console.WriteLine(Josh.Id);
+            // if you put a break / watch here, note that the defaults for ints is 0, and for strings is null
             Console.WriteLine(Josh.Name);
+
+            var John = new Customer(1, "John");
         }
     }
 }
