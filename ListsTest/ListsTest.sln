@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fields", "Fields\Fields.csproj", "{EF7F4AA8-8489-4FEF-A1CA-6DC1127A54B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListsTest", "Fields\ListsTest.csproj", "{EF7F4AA8-8489-4FEF-A1CA-6DC1127A54B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

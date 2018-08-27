@@ -1,5 +1,6 @@
 ﻿using System;
-namespace Fields
+
+namespace ListsTest
 {
     public class Athlete
     {
