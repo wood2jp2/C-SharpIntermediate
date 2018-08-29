@@ -8,8 +8,8 @@ namespace Properties
         {
             var josh = new Person(new DateTime(1992, 11, 12));
             //josh.Birthdate = new DateTime(1992, 11, 12);can't use this code with private set
-
-            Console.WriteLine(josh.Age);
+            josh.UserName = "username";
+            Console.WriteLine(josh.UserName);
         }
     }
 }
