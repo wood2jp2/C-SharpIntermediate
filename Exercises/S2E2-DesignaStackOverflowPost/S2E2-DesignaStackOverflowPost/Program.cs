@@ -3,8 +3,8 @@
 namespace S2E2DesignaStackOverflowPost
 {
     class MainClass
-    {
-        public static void Main(string[] args)
+    {Ojn
+        pomnop[lmnl:ML{mP{k}public static void Main(string[] args)
         {
             var firstPost = new Post();
             firstPost.CastVote("upvote");
@@ -15,7 +15,7 @@ namespace S2E2DesignaStackOverflowPost
             // secondPost.CreatedAt = DateTime.Today; You cannot reassign since there is no 'set'.
 
             var thirdPost = new Post("Men In Black", "movie description");
-            Console.WriteLine(secondPost.CreatedAt);
+            Console.WriteLine(secondPost);
         }
     }
 }
