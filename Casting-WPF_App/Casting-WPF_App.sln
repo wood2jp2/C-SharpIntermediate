@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting-WPF_App", "Casting-WPF_App\Casting-WPF_App.csproj", "{5E783B63-027E-4F0F-B75D-55BCCF5D73F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E783B63-027E-4F0F-B75D-55BCCF5D73F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E783B63-027E-4F0F-B75D-55BCCF5D73F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E783B63-027E-4F0F-B75D-55BCCF5D73F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E783B63-027E-4F0F-B75D-55BCCF5D73F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF7598EC-631E-46A1-8C9F-1CC89C5F15CA}
+	EndGlobalSection
+EndGlobal
