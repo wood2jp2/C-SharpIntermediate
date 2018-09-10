@@ -1,0 +1,13 @@
+﻿using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MethodOverriding
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}
