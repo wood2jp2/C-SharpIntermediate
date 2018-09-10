@@ -25,8 +25,19 @@ namespace Casting_WPF_App
             InitializeComponent();
         }
 
+        // 'sender' object is the source of the button click
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // you need to downcast sender in order to access the button properties
+            var button = (Button)sender;
+
+            // OR
+            var button2 = sender as Button;
+            if (button2 != null)
+            {
+                MessageBox.Show(button2.ActualHeight.ToString());
+            }
+
             MessageBox.Show("Hello World");
         }
     }
