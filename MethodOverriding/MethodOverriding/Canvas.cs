@@ -5,19 +5,14 @@ namespace MethodOverriding
 {
     public class Canvas
     {
+        // Each element passed in here is going to be either a shape, or a class that derives from Shape.
         public void DrawShapes(List<Shape> shapes)
         {
+            // This is an example of polymorphism: The Draw method can have many forms depending on the Shape's
+            // implementation of draw.
             foreach (var shape in shapes)
             {
-                switch (shape.Type)
-                {
-                    case ShapeType.Circle: 
-                        Console.WriteLine("draw circle");
-                        break;
-                    case ShapeType.Rectangle:
-                        Console.WriteLine("draw rectangle");
-                        break;
-                }
+                shape.Draw();
             }
         }
     }
