@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B62DD6E9-20B6-4197-B3CC-B726CDF01721}</ProjectGuid>
+    <ProjectGuid>{8DC5A67F-7F87-4C90-A642-26ABA805A247}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractClasses</RootNamespace>
-    <AssemblyName>AbstractClasses</AssemblyName>
+    <RootNamespace>S5_Exercise1_2_Design_A_Db</RootNamespace>
+    <AssemblyName>S5-Exercise1-2-Design A Db</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circle.cs" />
+    <Compile Include="DbCommand.cs" />
+    <Compile Include="DbConnection.cs" />
+    <Compile Include="OracleConnection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Shape.cs" />
+    <Compile Include="SqlConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
