@@ -2,19 +2,19 @@
 
 namespace E1S6__Workflow_Engine
 {
-    public class Workflow
+
+    public interface IWorkflow
     {
-        public IList<IActivity> ListOfActivities = new List<IActivity>();
+        void Add(IActivity activity);
+        void Remove(IActivity activity);
+    }
 
-        //public Workflow(IActivity activity)
-        //{
-        //    ListOfActivities.Add(activity);
-        //}
+    public class Workflow : IWorkflow
+    {
+        public IList<IActivity> _listOfActivities = new List<IActivity>();
 
-        public void AddActivity(IActivity activity)
-        {
-            ListOfActivities.Add(activity);
-        }
+        public void Add(IActivity activity) => _listOfActivities.Add(activity);
 
+        public void Remove(IActivity activity) => _listOfActivities.Remove(activity);
     }
 }

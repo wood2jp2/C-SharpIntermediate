@@ -11,10 +11,10 @@ namespace E1S6__Workflow_Engine
         {
             var workflowEngine = new WorkflowEngine();
             var workflow = new Workflow();
-            workflow.AddActivity(new ChangeStatusActivity());
-            workflow.AddActivity(new SendEmailActivity());
+            workflow.Add(new ChangeStatusActivity());
+            workflow.Add(new SendEmailActivity());
 
-            workflowEngine.Run(workflow);
+            workflowEngine.Run(workflow); 
         }
     }
 }

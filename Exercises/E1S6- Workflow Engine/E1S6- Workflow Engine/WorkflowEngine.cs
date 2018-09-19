@@ -4,7 +4,7 @@
     {
         public void Run(Workflow workflow)
         {
-            foreach (var process in workflow.ListOfActivities)
+            foreach (var process in workflow._listOfActivities)
             {
                 process.Execute();
             }

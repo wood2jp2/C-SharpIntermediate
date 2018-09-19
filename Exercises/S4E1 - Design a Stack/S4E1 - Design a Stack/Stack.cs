@@ -9,32 +9,25 @@ namespace S4E1___Design_a_Stack
 {
     public class Stack
     {
-        private int Position = -1;
         private ArrayList StackItems = new ArrayList();
 
         public void Push (object obj)
         {
-            if (obj != null)
-            {
-                Position += 1;
-                StackItems.Add(obj);
-            } else
-            {
-                throw new InvalidOperationException();
-            }
+            if (obj != null) StackItems.Add(obj);
+            else throw new InvalidOperationException();
         }
 
         public object Pop()
         {
+            if (StackItems.Count == 0)
+                throw new InvalidOperationException("There are no items in the stack yet.");
+
             var returnable = StackItems[StackItems.Count-1];
-            StackItems.RemoveAt(StackItems.Count - 1); 
+            StackItems.RemoveAt(StackItems.Count - 1);
+
             return returnable;
         }
 
-        public void Clear()
-        {
-            StackItems.Clear();
-        }
-
+        public void Clear() => StackItems.Clear();
     }
 }
